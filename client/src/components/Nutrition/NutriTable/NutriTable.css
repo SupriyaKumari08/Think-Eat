@@ -1,0 +1,53 @@
+
+.NutriTableTh{
+    margin: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.NutriTable{
+    border: 2px solid rgb(169, 169, 169);
+    width: 18rem;
+    margin: 5rem;
+    padding: 0;
+    flex-wrap: wrap;
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+.NutriTable h2{
+    text-align: center;
+    color: aliceblue;
+    background-color: green;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.2rem;
+    
+}
+.NutriTableTh th{
+    color: green;
+    font-size: 1rem;
+    display: block;
+    border-collapse: collapse;
+    text-align: left;
+    padding: .6rem;
+    width: 10rem;
+
+}
+.NutriTableTh td{
+    color: rgb(89, 89, 89);
+    font-size: .8rem;
+    font-weight: 400;
+    display: block;
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.NutriTableTh th:hover{
+cursor: pointer;
+color: rgb(10, 64, 64);
+}
+
+#detailsNutriBase , #detailsNutriToppings , #detailsNutriPickles
+, #detailsNutriProtein , #detailsNutriDressing , #detailsNutriTopOff{
+    display: none;
+}
+

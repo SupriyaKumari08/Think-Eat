@@ -1,0 +1,65 @@
+
+.NutriGrandDiv{
+    width: 70rem;
+}
+.nutriMenu{
+    font-family: 'Poppins', sans-serif;
+    margin: .3rem;
+    margin-top: 0rem;
+    width: 60rem;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(104, 151, 104); */
+    background-color: coral;
+    box-shadow: 2px 2px 12px 2px coral;
+}
+
+
+.NutiCalcMainHeader{
+    width: 60rem;
+    display: flex;
+    margin: .5rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    padding: .1rem;
+    justify-content: space-around;
+    font-size: 1rem;
+    background-color: beige;
+    box-shadow: 1px 3px 9px 2px beige ;
+    color: coral;
+}
+.NutiCalcMainHeader h4:hover{
+    cursor:pointer;
+    color: rgb(140, 49, 16);
+}
+.NutiCalcMainOptions{
+    text-decoration: none;
+    color: coral;
+
+}
+
+.nutriMenu h3 , .nutriMenu h3{
+    margin-left: 2rem;
+}
+.NutriCalcLink{
+    color: beige;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding-top: 1rem;
+}
+.NutriCalcLink:hover{
+    color: green;
+    font-weight: bolder;
+}
+/* .NutriDisplay{
+    display: flex;
+} */
+.active{
+    display: block;
+}
+.NutriDisplayTable{
+    position: absolute;
+    margin-left: 63rem;
+    margin-top: -4rem;
+}

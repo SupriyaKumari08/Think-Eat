@@ -1,0 +1,191 @@
+*{
+    font-weight: bold;
+}
+html {
+    width: 100%;
+    overflow-x: hidden;
+   }
+   
+   body{
+       width: 100%;
+   }
+.logo{
+    height: 3rem;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: -105rem;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list li{
+    padding: 1rem 1rem;
+    
+}
+.linkTag{
+    text-decoration: none;
+    color: black;
+}
+.linkTag:hover{
+    color: green;
+}
+#login .linkTag{
+    padding-left:8rem ;
+    color: red;
+}
+#login .linkTag:hover{
+    color: coral;
+}
+
+.navbar{
+    margin-left: 30rem;
+    width: 100rem;
+}
+
+@media screen and (max-width: 1355px) {
+    .list li{
+        padding: 1rem .8rem;
+    }
+    .navbar{
+        margin-left: 22rem;
+    }
+  }
+@media screen and (max-width: 1191px) {
+    .list li{
+        padding: .8rem .6rem;
+    }
+    .navbar{
+        margin-left: 20rem;
+    }
+  }
+@media screen and (max-width: 1132px) {
+    .list li{
+        padding: .8rem .5rem;
+    }
+    .navbar{
+        margin-left: 13rem;
+        
+    }
+    .list{
+        height: 5rem;
+    }
+  }
+@media screen and (max-width:1054px) {
+    .navbar{
+        margin-left: 5rem;
+        margin-top: -1rem;
+        
+    }
+    .list{
+        height: 4rem;
+    }
+  }
+@media screen and (max-width:1023px) {
+    .navbar{
+        margin-left: 5rem;
+        margin-top: -2rem;
+        
+    }
+    .list{
+        font-size: .8rem;
+    }
+  }
+@media screen and (max-width:782px) {
+    .navbar{
+        margin-left: 2.5rem;
+        margin-top: -2.5rem;
+        
+    }
+    #login .linkTag{
+        padding-left:5rem ;
+    }
+    .list li{
+        padding: .8rem .3rem;
+    }
+  }
+@media screen and (max-width:661px) {
+    .navbar{
+        margin-left: 3.5rem;
+        
+    }
+    #login .linkTag{
+        padding-left:4rem ;
+    }
+    .list{
+        font-size: .7rem;
+    }
+  }
+@media screen and (max-width:608px) {
+    .navbar{
+        margin-left: 2rem;
+        
+    }
+    #login .linkTag{
+        padding-left:3rem ;
+    }
+    .list{
+        font-size: .6rem;
+    }
+  }
+@media screen and (max-width:519px) {
+    .navbar{
+        margin-left: 1rem;
+        
+    }
+    #login .linkTag{
+        padding-left:2rem ;
+    }
+    .list{
+        font-size: .5rem;
+    }
+    .list li{
+        padding: .6rem .2rem;
+    }
+  }
+@media screen and (max-width:438px) {
+    .navbar{
+        margin-left: 0rem;
+        
+    }
+    #login .linkTag{
+        padding-left:0rem ;
+    }
+    .list{
+        font-size: .45rem;
+    }
+    .list li{
+        padding: .5rem .1rem;
+    }
+  }
+  @media screen and (max-width:438px) {
+      .navbar{
+          margin-left: 0rem;
+          
+        }
+        #login .linkTag{
+            padding-left:0rem ;
+        }
+        .list{
+            font-size: .45rem;
+        }
+        .list li{
+            padding: .5rem .1rem;
+        }
+    }
+    
+    @media screen and (max-width:318px) {
+    
+        #login .linkTag{
+            padding-left:-1rem ;
+        }
+        .list{
+            font-size: .4rem;
+        }
+        .list li{
+            padding: .5rem -1rem;
+        }
+      }

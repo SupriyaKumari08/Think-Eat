@@ -1,0 +1,43 @@
+p{
+    margin: .2rem;
+}
+.box{
+    flex-wrap: wrap;
+    color: rgb(10, 96, 7);
+    height: 7.5rem;
+    width: 10rem;
+    padding: .3rem;
+    margin: 1rem;
+    box-shadow: 1px 1px 10px 1px rgb(190, 190, 190);
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+.buttonParent{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+button{
+    margin-top: 1.8rem;
+    margin-left: .9rem;
+    height: 3rem;
+    width: 5rem;
+    font-size: 1.4rem;
+    background-color: rgb(179, 180, 179);
+    color: rgb(17, 32, 44);
+    display: inline;
+    border-radius: 0%;
+    border: none;
+    transition: background-color .5s ease-out 100ms
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: green;
+    color: aliceblue;
+}
+.func{
+    width: 8.9rem;
+    height: 3rem;
+}

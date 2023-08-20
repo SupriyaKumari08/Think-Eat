@@ -1,0 +1,13 @@
+.Proteinbx{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    width: 70%;
+}
+
+.proteinH3{
+    margin-left: 2rem;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+    color: gray;
+}

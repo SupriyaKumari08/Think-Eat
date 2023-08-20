@@ -1,0 +1,151 @@
+
+/* html {
+ width: 100%;
+ /* height: 100%; */
+ /* overflow-x: hidden; */
+ /* } */ 
+ 
+ /* body{
+     width: 100%;
+    } */
+    #nutrimain{
+    overflow-x: hidden;
+
+}
+
+
+
+
+.homeParent{
+    background-color: #fed400;
+
+
+}
+.homeBanner{
+    background-color: #fed400;
+    height: 30rem;
+    width: 100%;
+    padding-left: 4.3rem;
+    z-index: -1;
+}
+
+.homePageTitle{
+    font-family: 'Cardo', serif;
+    font-weight: bolder;
+    margin: 1rem 0;
+    /* padding-top: 1.5rem;
+    position: absolute; */
+    padding-bottom: 15px;
+    border-bottom:3.1px solid #FFFFFB;
+    /* border-bottom-width: 3.1px; */
+    width: fit-content;
+    /* overflow-x: hidden; */
+ 
+
+}
+
+
+.homePageSubtitle , .NutriPageText{
+    font-family: 'Cardo', serif;
+
+}
+.foodNutriPage{
+   height: 28rem;
+
+   margin-top: -0.3rem;
+
+    z-index: 0;
+
+}
+.nurtiHomePictureError{
+    position: absolute;
+    margin-top: -9.4rem;
+    margin-left: 59rem;
+    margin-right: 0;
+    height: 19rem;
+
+}
+
+
+.NutriBannerTag{
+    z-index: 1;
+    width: 9rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    position: absolute;
+    height: 4rem;
+    background-color: #FFFFFB;
+    padding:1.5rem 1.2rem;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.NutriCalorie{
+    margin-left: 75rem;
+    margin-top: 5rem;
+}
+.NutriSugar{
+    margin-left: 68rem;
+    margin-top: 10rem;
+    padding-left: 1.6rem;
+}
+.NutriSodium{
+    margin-left: 65rem;
+    margin-top: 17rem;
+    padding-left: 1.8rem;
+}
+.NutriFat{
+    margin-left: 67.5rem;
+    margin-top: 24.5rem;
+    padding-left: 2rem;
+}
+.navigateToCalc{
+    color: #3dc795;
+    margin-top: 10rem;
+    font-weight: bold;
+    margin-left: -92rem;
+    
+}
+.NavigateArrow{
+    color: #FFFFFB;
+}
+
+.foodNutriPage2{
+    position: absolute;
+    height: 22rem;
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+.nutriHomeLastText{
+    width:80%;
+}
+.NutriPageText{
+    margin: 10rem;
+    width:43.75rem;
+    font-weight: bold;
+    margin-left: 40rem;
+    position: relative;
+}
+
+
+.anchorNutri{
+    z-index: 1;
+text-decoration: none;
+color: #3dc795;
+}
+.anchorNutri:hover{
+color: #FFFFFB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
